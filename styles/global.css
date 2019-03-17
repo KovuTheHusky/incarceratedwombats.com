@@ -187,27 +187,26 @@ ul.links li:last-child:after {
   width: 100%;
 }
 
-.right.column > img,
-.right.column > a > img {
+div.thumbnails img {
   width: 100%;
   margin-bottom: 30px;
 }
 
-.right.column > img:last-child {
+div.thumnbnails > img:last-child {
   margin-bottom: 0;
 }
 
 ul.links > li:nth-child(odd) > a,
 div.notes div:nth-child(even),
 div.photos img:nth-child(even),
-.right.column > img:nth-child(odd) {
+div.thumbnails > a:nth-child(odd) > img {
   transform: rotate(1deg);
 }
 
 ul.links > li:nth-child(even) > a,
 div.notes div:nth-child(odd),
 div.photos img:nth-child(odd),
-.right.column > img:nth-child(even) {
+div.thumbnails > a:nth-child(even) > img {
   transform: rotate(-1deg);
 }
 

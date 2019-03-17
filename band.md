@@ -22,11 +22,11 @@ title: "Band"
     </div>
 {% endfor %}
   </div>
-  <div class="right column">
+  <div class="right column thumbnails">
 {% for member in site.data.members %}
-  <a href="/images/photos/{{ member.photo }}.jpg" data-fancybox="gallery">
-    <img src="/images/photos/320x/{{ member.photo }}.jpg" alt="{{ member.name }}">
-  </a>
+    <a href="/images/photos/{{ member.photo }}.jpg" data-fancybox>
+      <img src="/images/photos/320x/{{ member.photo }}.jpg" alt="{{ member.name }}">
+    </a>
 {% endfor %}
   </div>
 </div>
