@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Goofs"
 ---
 <div class="notes">
 {% for goof in site.data.goofs %}
