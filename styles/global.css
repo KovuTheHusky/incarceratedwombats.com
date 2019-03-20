@@ -76,6 +76,7 @@ header a:visited {
   font: normal 35.38999px 'MetalLordRegular';
   color: #f00;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 header h1 {
