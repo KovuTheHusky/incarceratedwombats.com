@@ -1,0 +1,11 @@
+language: ruby
+branches:
+  only:
+  - master
+rvm:
+- 2.6.2
+before_script:
+ - chmod +x ./deploy
+script: ./deploy
+exclude: [vendor]
+sudo: false
