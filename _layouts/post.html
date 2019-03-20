@@ -2,18 +2,19 @@
 layout: default
 ---
 <div class="notes">
-    <div>
-        <h2>{{ page.title }}</h2>
+  <div>
+    <h2>{{ page.title }}</h2>
     <p>{{ content }}</p>
     <p style="text-align: right;">{{ page.date | date: "%-d %B %Y" }}</p>
-    </div>
-</div>
-
-<div class="pagination">
+  </div>
+{% if page.next.url or page.previous.url %}
+  <div class="pagination">
+{% if page.next.url %}
+    <a class="next" href="{{ page.next.url | replace: '.html', '' }}">Newer</a>
+{% endif %}
 {% if page.previous.url %}
-    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-  {% endif %}
-  {% if page.next.url %}
-    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-  {% endif %}
+    <a class="prev" href="{{ page.previous.url | replace: '.html', '' }}">Older</a>
+{% endif %}
+  </div>
+{% endif %}
 </div>
