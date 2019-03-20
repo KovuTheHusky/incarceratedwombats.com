@@ -14,16 +14,9 @@ pagination:
 </div>
 {% endfor %}
 
-{% if paginator.total_pages > 1 %}
 <div class="pagination">
-  {% if paginator.previous_page %}
-    <a class="prev" href="{{ paginator.previous_page_path | replace: 'index.html', '' | prepend: '/posts' | prepend: site.baseurl }}">Newer</a>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a class="next" href="{{ paginator.next_page_path | replace: 'index.html', '' | prepend: '/posts' | prepend: site.baseurl }}">Older</a>
-  {% endif %}
+    <a href="/posts">View All</a>
 </div>
-{% endif %}
 
   </div>
   <div class="right column">

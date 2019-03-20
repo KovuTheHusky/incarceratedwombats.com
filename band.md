@@ -4,7 +4,7 @@ title: "Band"
 ---
 <div class="row">
   <div class="left column notes">
-{% for member in site.data.members %}
+{% for member in site.data.band %}
     <div>
       <h2>{{ member.name }}, {{ member.instrument }}</h2>
       <p>{{ member.biography }}</p>
@@ -23,7 +23,7 @@ title: "Band"
 {% endfor %}
   </div>
   <div class="right column thumbnails">
-{% for member in site.data.members %}
+{% for member in site.data.band %}
     <a href="/images/photos/{{ member.photo }}.jpg" data-fancybox>
       <img src="/images/photos/320x/{{ member.photo }}.jpg" alt="{{ member.name }}">
     </a>

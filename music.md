@@ -22,6 +22,6 @@ title: Music
     </div>
   </div>
   <div class="right column thumbnails">
-    <a href="/images/levels/front.png" data-fancybox><img src="/images/levels/front.png" alt=""></a>
+    <a href="/images/levels/front.png" data-fancybox><img src="/images/levels/320x/front.png" alt=""></a>
   </div>
 </div>
