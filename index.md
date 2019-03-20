@@ -1,15 +1,34 @@
 ---
 layout: default
+pagination: 
+  enabled: true
+  title: ':num'
 ---
 <div class="row">
   <div class="left column notes">
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 <div>
 <a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 <p>{{ post.content }}</p>
 <p style="text-align: right;">{{ post.date | date: "%-d %B %Y" }}</p>
 </div>
 {% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<ul class="pagination">
+  {% if paginator.previous_page %}
+  <li>
+    <a href="{{ paginator.previous_page_path | replace: 'index.html', '' | prepend: site.baseurl }}">Newer</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li>
+    <a href="{{ paginator.next_page_path | replace: 'index.html', '' | prepend: site.baseurl }}">Older</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
+
   </div>
   <div class="right column">
     <ul class="links">

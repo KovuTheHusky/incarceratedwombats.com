@@ -2,6 +2,7 @@
 date:   2015-06-01 13:59:01 -0000
 layout: post
 title:  "Website updated"
+category: 'posts'
 ---
 Hello fellow wombats!
 

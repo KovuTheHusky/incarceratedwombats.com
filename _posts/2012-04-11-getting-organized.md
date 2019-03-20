@@ -2,6 +2,7 @@
 date:   2012-04-11 12:00:00 -0000
 layout: post
 title:  "Getting organized"
+category: 'posts'
 ---
 Well it was time to get organized so here we are. The website is still being worked on and right now I'm working on getting the old songs edited and online. Things were a bit disorganized but I think we can move to a better system next practice.
 

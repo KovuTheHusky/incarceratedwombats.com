@@ -2,6 +2,7 @@
 date:   2013-07-24 17:19:46 -0000
 layout: post
 title:  "Website updated"
+category: 'posts'
 ---
 Hey everybody - just want to write a quick post about some new features and fixes on the website.
 

@@ -9,9 +9,21 @@ url: "https://incarceratedwombats.com"
 twitter_username: jekyllrb
 github_username: jekyll
 
+pagination:
+  enabled: true
+  debug: false
+  collection: 'posts'
+  per_page: 5
+  permalink: '/:num/'
+  title: ':num - :title'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+  
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-paginate-v2
 sass:
   sass_dir: _sass
   style: compressed

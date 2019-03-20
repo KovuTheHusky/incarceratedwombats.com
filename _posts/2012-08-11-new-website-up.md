@@ -2,6 +2,7 @@
 date:   2012-08-11 19:13:58 -0000
 layout: post
 title:  "New website up!"
+category: 'posts'
 ---
 Or should I say wombsite?
 

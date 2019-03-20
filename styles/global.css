@@ -33,7 +33,14 @@ body {
 iframe {
   width: 100%;
   border: none;
+}
+
+div.notes iframe {
   height: 506px;
+}
+
+div.left.column.notes iframe {
+  height: 309px;
 }
 
 audio {
@@ -281,4 +288,13 @@ div.photos a {
 div.photos img {
   height: 200px;
   margin: 0 30px 30px 0;
+}
+
+div.pagination {
+  margin: 30px auto;
+  text-align: center;
+}
+
+div.pagination a {
+  margin: 0 15px;
 }
