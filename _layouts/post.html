@@ -5,7 +5,9 @@ layout: default
   <div>
     <h2>{{ page.title }}</h2>
     <p>{{ content }}</p>
+{% if page.date %}
     <p style="text-align: right;">{{ page.date | date: "%-d %B %Y" }}</p>
+{% endif %}
   </div>
 {% if page.next.url or page.previous.url %}
   <div class="pagination">

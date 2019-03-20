@@ -1,0 +1,17 @@
+---
+---
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Incarcerated Wombats</title>
+  <link>https://incarceratedwombats.com</link>
+  <description>Incarcerated Wombats is a hard rock band from the Long Island, New York area mostly active from 2008-2014.</description>
+{% for post in site.posts %}
+  <item>
+    <title>{{ post.title }}</title>
+    <link>https://incarceratedwombats.com{{ post.url | replace: '.html', '' }}</link>
+    <description>{{ post.content | strip_newlines }}</description>
+  </item>
+{% endfor %}
+</channel>
+</rss>
