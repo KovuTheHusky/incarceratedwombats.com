@@ -8,7 +8,7 @@ pagination:
   <div class="left column notes">
 {% for post in paginator.posts %}
 <div>
-<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
+<a href="{{ post.url | replace: '.html', '' }}"><h2>{{ post.title }}</h2></a>
 <p>{{ post.content }}</p>
 <p style="text-align: right;">{{ post.date | date: "%-d %B %Y" }}</p>
 </div>
