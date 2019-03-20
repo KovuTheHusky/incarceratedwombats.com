@@ -9,7 +9,7 @@ set -e
 rm -rf _site
 mkdir _site
 
-git clone https://24d9fda0472b6e3531d7ce8006e3e580cfe5cf76@github.com/KovuTheHusky/incarceratedwombats.com --branch gh-pages _site
+git clone https://24d9fda0472b6e3531d7ce8006e3e580cfe5cf76@github.com/KovuTheHusky/incarceratedwombats.com.git --branch gh-pages _site
 
 bundle exec jekyll build
 
