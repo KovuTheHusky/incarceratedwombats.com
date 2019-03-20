@@ -15,18 +15,14 @@ pagination:
 {% endfor %}
 
 {% if paginator.total_pages > 1 %}
-<ul class="pagination">
+<div class="pagination">
   {% if paginator.previous_page %}
-  <li>
-    <a href="{{ paginator.previous_page_path | replace: 'index.html', '' | prepend: site.baseurl }}">Newer</a>
-  </li>
+    <a class="prev" href="{{ paginator.previous_page_path | replace: 'index.html', '' | prepend: site.baseurl }}">Newer</a>
   {% endif %}
   {% if paginator.next_page %}
-  <li>
-    <a href="{{ paginator.next_page_path | replace: 'index.html', '' | prepend: site.baseurl }}">Older</a>
-  </li>
+    <a class="next" href="{{ paginator.next_page_path | replace: 'index.html', '' | prepend: site.baseurl }}">Older</a>
   {% endif %}
-</ul>
+</div>
 {% endif %}
 
   </div>
