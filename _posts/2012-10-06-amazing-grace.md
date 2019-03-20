@@ -1,5 +1,5 @@
 ---
-date:   2012-10-06 12:00:00 -0000
+date:   2012-10-06 14:00:00 -0000
 layout: post
 title:  "Amazing Grace"
 categories: [goofs]

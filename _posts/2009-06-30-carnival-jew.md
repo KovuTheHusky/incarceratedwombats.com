@@ -1,5 +1,5 @@
 ---
-date:   2009-06-30 12:00:00 -0000
+date:   2009-06-30 14:00:00 -0000
 layout: post
 title:  "Carnival Jew"
 categories: [goofs]
