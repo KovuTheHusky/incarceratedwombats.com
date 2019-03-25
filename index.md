@@ -27,11 +27,11 @@ pagination:
       <li><a href="/rss" style="background-color: #ffa500;"><img src="/images/rss.svg" alt="RSS"></a></li>
     </ul>
     <div class="thumbnails">
+      <a href="/images/photos/00129.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00129.jpg" alt=""></a>
+      <a href="/images/photos/00128.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00128.jpg" alt=""></a>
+      <a href="/images/photos/00127.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00127.jpg" alt=""></a>
       <a href="/images/photos/00126.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00126.jpg" alt=""></a>
       <a href="/images/photos/00125.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00125.jpg" alt=""></a>
-      <a href="/images/photos/00124.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00124.jpg" alt=""></a>
-      <a href="/images/photos/00123.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00123.jpg" alt=""></a>
-      <a href="/images/photos/00122.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00122.jpg" alt=""></a>
     </div>
   </div>
 </div>
