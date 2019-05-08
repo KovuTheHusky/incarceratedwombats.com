@@ -16,7 +16,7 @@ html,
 body {
   height: 100%;
   margin: 0;
-  min-width: 960px;
+  min-width: 938px;
   font-family: 'Helvetica Neue', Helvetica, Verdana, Arial;
   font-size: 16px;
 }
@@ -50,7 +50,7 @@ audio {
 
 .container {
   margin: 0 auto;
-  width: 960px;
+  width: 938px;
 }
 
 a:link,
@@ -74,7 +74,7 @@ header {
 
 header a:link,
 header a:visited {
-  font: normal 35.38999px 'MetalLordRegular';
+  font: normal 34.57682px 'MetalLordRegular';
   color: #f00;
   text-decoration: none;
   white-space: nowrap;
