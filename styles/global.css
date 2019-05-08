@@ -225,6 +225,10 @@ a.icon img {
   padding: 0 !important;
 }
 
+div.notes {
+  text-size-adjust: 250%;
+}
+
 div.notes>div {
   background-color: #ffc;
   color: #000;
