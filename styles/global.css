@@ -298,6 +298,7 @@ div.pagination a {
 }
 
 input, textarea {
+  font-family: monospace;
   font-size: 1.2em;
   border: 1px solid gray;
   width: 100% !important;
