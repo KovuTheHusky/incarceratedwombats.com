@@ -8,6 +8,7 @@
     url('/fonts/metal_lord-webfont.woff') format('woff'),
     url('/fonts/metal_lord-webfont.ttf') format('truetype'),
     url('/fonts/metal_lord-webfont.svg#MetalLordRegular') format('svg');
+  font-display: swap;
   font-weight: normal;
   font-style: normal;
 }
