@@ -12,10 +12,10 @@ title: "Band"
 {% if member.facebook or member.twitter %}
       <div class="icons">
 {% if member.facebook %}
-        <a href="https://facebook.com/profile.php?id={{ member.facebook }}" class="icon" style="background-color: #3B5998;"><img src="/images/facebook.svg" alt="Facebook"></a>
+        <a href="https://facebook.com/profile.php?id={{ member.facebook }}" class="icon" style="background-color: #3B5998;"><img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/facebook.svg" alt="Facebook"></a>
 {% endif %}
 {% if member.twitter %}
-        <a href="https://twitter.com/{{ member.twitter }}" class="icon" style="background-color: #1da1f2;"><img src="/images/twitter.svg" alt="Twitter"></a>
+        <a href="https://twitter.com/{{ member.twitter }}" class="icon" style="background-color: #1da1f2;"><img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/twitter.svg" alt="Twitter"></a>
 {% endif %}
       </div>
 {% endif %}
