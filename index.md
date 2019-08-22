@@ -21,10 +21,10 @@ pagination:
   </div>
   <div class="right column">
     <ul class="links">
-      <li><a href="https://facebook.com/incarceratedwombats" style="background-color: #3B5998;"><img src="/images/facebook.svg" alt="Facebook"></a></li>
-      <li><a href="https://twitter.com/followthewombat" style="background-color: #1da1f2;"><img src="/images/twitter.svg" alt="Twitter"></a></li>
-      <li><a href="https://youtube.com/user/followthewombat" style="background-color: #f00;"><img src="/images/youtube.svg" alt="YouTube"></a></li>
-      <li><a href="/rss" style="background-color: #ffa500;"><img src="/images/rss.svg" alt="RSS"></a></li>
+      <li><a href="https://facebook.com/incarceratedwombats" style="background-color: #3B5998;"><img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/facebook.svg" alt="Facebook"></a></li>
+      <li><a href="https://twitter.com/followthewombat" style="background-color: #1da1f2;"><img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/twitter.svg" alt="Twitter"></a></li>
+      <li><a href="https://youtube.com/user/followthewombat" style="background-color: #f00;"><img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/youtube.svg" alt="YouTube"></a></li>
+      <li><a href="/rss" style="background-color: #ffa500;"><img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/rss.svg" alt="RSS"></a></li>
     </ul>
     <div class="thumbnails">
       <a href="/images/photos/00133.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00133.jpg" alt=""></a>
