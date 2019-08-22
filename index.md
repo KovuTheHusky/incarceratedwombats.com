@@ -27,11 +27,11 @@ pagination:
       <li><a href="/rss" style="background-color: #ffa500;"><img src="/images/rss.svg" alt="RSS"></a></li>
     </ul>
     <div class="thumbnails">
+      <a href="/images/photos/00133.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00133.jpg" alt=""></a>
+      <a href="/images/photos/00132.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00132.jpg" alt=""></a>
+      <a href="/images/photos/00131.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00131.jpg" alt=""></a>
+      <a href="/images/photos/00130.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00130.jpg" alt=""></a>
       <a href="/images/photos/00129.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00129.jpg" alt=""></a>
-      <a href="/images/photos/00128.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00128.jpg" alt=""></a>
-      <a href="/images/photos/00127.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00127.jpg" alt=""></a>
-      <a href="/images/photos/00126.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00126.jpg" alt=""></a>
-      <a href="/images/photos/00125.jpg" data-fancybox="gallery"><img src="/images/photos/320x/00125.jpg" alt=""></a>
     </div>
   </div>
 </div>
