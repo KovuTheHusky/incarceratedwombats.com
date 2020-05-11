@@ -6,6 +6,6 @@ title: "Contact"
   <!--input type='hidden' name='redirect_to' value='https://incarceratedwombats.com/contacted' /-->
   <input type="text" name="name" placeholder="Name">
   <input type="email" name="email" placeholder="Email">
-  <textarea rows="10" name="description" placeholder="Description"></textarea>
+  <textarea rows="10" name="message" placeholder="Message"></textarea>
   <input type="submit" value="Send">
 </form>
