@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Music
+permalink: /music/
 ---
 <div class="row">
   <div class="left column notes">

@@ -2,7 +2,8 @@ title: Incarcerated Wombats
 description: >-
   Incarcerated Wombats is a hard rock band from the Long Island, New York
   area mostly active from 2008-2014.
-url: "https://incarceratedwombats.com"
+hostname: "incarceratedwombats.com"
+# url: "https://incarceratedwombats.com"
 facebook_username: incarceratedwombats
 twitter_username: followthewombat
 

@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /
 pagination: 
   enabled: true
   title: ':num'

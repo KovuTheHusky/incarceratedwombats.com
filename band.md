@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Band"
+permalink: /band/
 ---
 <div class="row">
   <div class="left column notes">

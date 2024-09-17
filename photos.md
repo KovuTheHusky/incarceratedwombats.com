@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Photos"
+permalink: /photos/
 ---
 <div class="photos">
 {% assign photos = site.static_files | reverse %}

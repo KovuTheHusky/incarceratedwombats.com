@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Contact"
+permalink: /contact/
 ---
 <form action="https://getsimpleform.com/messages?form_api_token=001a8322539cb296135d101a2e863cd3" method="post">
   <input type="hidden" name="redirect_to" value="https://incarceratedwombats.com/contacted">
