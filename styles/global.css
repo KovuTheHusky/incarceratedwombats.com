@@ -69,7 +69,7 @@ a:active {
 }
 
 header {
-  margin-top: 30px;
+  padding-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -129,7 +129,7 @@ nav>ul>li:last-child:after {
 
 footer {
   text-align: center;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   margin-top: 30px;
 }
 
